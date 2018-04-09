@@ -28,8 +28,8 @@ Rating | The ESRB ratings (e.g.Everyone, Teen, Adults Only..etc.) | String | Dis
 
 
 ** Descriptive Sctatistics **
- | Name | Platform | Year_of_Release | Genre | Publisher | Developer | NA_Sales | EU_Sales | JP_Sales | Other_Sales | Global_Sales | Critic_Score | Critic_Count | User_Score | User_Count | Rating 
-------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------
+ | Name | Platform | Year_of_Release | Genre | Publisher | Developer 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 count |
 unique |
 top |
