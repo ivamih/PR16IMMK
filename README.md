@@ -7,11 +7,26 @@ We have chosen a dataset from Kaggle, https://www.kaggle.com/rush4ratio/video-ga
 **Data**
 The data set consists of video games, information on their sales and ratings received by Metacritic and ESRB. The basic data and sales data are taken over by VG Chartz and are then complemented by ratings from Metacritic and ESRB. Only games that are sold in more than 100000 copies are included.
 
-
 Attribute | Description      | Type | Value
 ----------|------------------|------|------
 Name      | Name of the game | String | Discrete
-Platform | 
+Platform | Console on which the game is running | String | Discrete
+Year_of_Release | Year of release | Numeric | Discrete
+Genre | Genre |  String | Discrete
+Publisher | Company that publishes the game | String | Discrete
+NA_Sales | Game sales in North America in millions of units | Numeric | Continuous
+EU_Sales | Game sales in Europe in millions of units | Numeric | Continuous
+JP_Sales | Game sales in Japan in millions od units | Numeric | Continuous
+Other_Sales | Game sales in the rest of the world, i.e. Africa, Asia excluding Japan, Australia, Europe excluding EU and South America in millions of units | Numeric | Continuous
+Global_Sales | Total sales in the world in millions of units | Numeric | Continuous
+Critic_Score | Aggregate score compiled by Metacritic staff | Numeric | Continuous
+Critic_Count | The number of critics used in coming up with the critic score | Numeric | Discrete
+User_Score | Score by Metacritic's subscribers | Numeric | Continuous
+User_Count | Number of users who gave the user score | Numeric | Discrete 
+Developer | Party responsible for creating the game | String | Discrete
+Rating | The ESRB ratings (e.g.Everyone, Teen, Adults Only..etc.) | String | Discrete
+
+
 
 **Goals**
 
