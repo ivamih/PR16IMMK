@@ -29,7 +29,7 @@ Rating | The ESRB ratings (e.g.Everyone, Teen, Adults Only..etc.) | String | Dis
 
 ** Descriptive Sctatistics **
 
-  | Name | Platform | Year_of_Release | Genre | Publisher | Developer 
+ X | Name | Platform | Year_of_Release | Genre | Publisher | Developer 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 count | 6826 | 6826 | 6826 | 6826 | 6826 | 6826
 unique | 4378 | 17 | / | 12 | 262 | 1289 
@@ -43,6 +43,20 @@ min | / | / | 1985 | / | / | /
 75% | / | / | 2011 | / | / | /
 max | / | / | 2016 | / | / | /
 
+
+X | NA_Sales | EU_Sales | JP_Sales | Other_Sales | Global_Sales 
+------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+count | 6826 | 6826 | 6826 | 6826 | 6826 
+unique | / | / | / | / | /  
+top | / | / | / | / | /
+freq | / | / | / | / | /
+mean | 0.394 | 0.236 | 0.064 | 0.083 | 0.777  
+std | 0.967 | 0.687 | 0.288 | 0.270 | 1.963  
+min | 0 | 0 | 0 | 0 | 0.01 
+25% | 0.06 | 0.02 | 0 | 0.01 | 0.11 
+50% | 0.15 | 0.06 | 0 | 0.02 | 0.29 
+75% | 0.39 | 0.21 | 0.01 | 0.07 | 0.75 
+max | 41.36 | 28.96 | 6.5 | 10.57 | 82.53 
 
 **Goals**
 
