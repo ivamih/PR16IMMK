@@ -29,9 +29,19 @@ Rating | The ESRB ratings (e.g.Everyone, Teen, Adults Only..etc.) | String | Dis
 
 ** Descriptive Sctatistics **
 
- X | Name | Platform | Year_of_Release | Genre | Publisher | Developer 
+  | Name | Platform | Year_of_Release | Genre | Publisher | Developer 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 count | 6826 | 6826 | 6826 | 6826 | 6826 | 6826
+unique | 4378 | 17 | / | 12 | 262 | 1289 
+top | LEGO Star Wars II: The Original Trilogy  | PS2 | / | Action | Electornic Arts | EA Canada
+freq | 8 | 1140 | / | 1630 | 940 | 149
+mean | / | / | 2007.437 | / | / | / 
+std | / | / | 4.211 | / | / | / 
+min | / | / | 1985 | / | / | /
+25% | / | / | 2004 | / | / | /
+50% | / | / | 2007 | / | / | /
+75% | / | / | 2011 | / | / | /
+max | / | / | 2016 | / | / | /
 
 
 **Goals**
