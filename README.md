@@ -27,7 +27,7 @@ Developer | Party responsible for creating the game | String | Discrete
 Rating | The ESRB ratings (e.g.Everyone, Teen, Adults Only..etc.) | String | Discrete
 
 
-** Descriptive Sctatistics **
+**Descriptive Sctatistics**
 
  X | Name | Platform | Year_of_Release | Genre | Publisher | Developer 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
