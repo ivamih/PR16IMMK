@@ -3,6 +3,7 @@
 ## Video game sales with ratings
 
 We have chosen a dataset from Kaggle, https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings
+**Goals**
 
 **Data** 
 
@@ -27,6 +28,7 @@ User_Count | Number of users who gave the user score | Numeric | Discrete
 Developer | Party responsible for creating the game | String | Discrete
 Rating | The ESRB ratings (e.g.Everyone, Teen, Adults Only..etc.) | String | Discrete
 
+**Analysis**
 
 **Descriptive Sctatistics**
 
@@ -68,7 +70,6 @@ min | 13 | 3 | / | 4 | /
 75% | 80 | 39 | / | 89 | / 
 max | 98 | 113 | / | 10665 | / 
 
-**Goals**
 
 
 <sup>1</sup>Metacritic is a web site that collects reviews about a variety of music albums, video games, movies, series, etc. Finally, for each product, two average scores are calculated, one of the analysts in Metacritic, another from the subcribers on the site.
