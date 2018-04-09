@@ -28,19 +28,11 @@ Rating | The ESRB ratings (e.g.Everyone, Teen, Adults Only..etc.) | String | Dis
 
 
 ** Descriptive Sctatistics **
+
  X | Name | Platform | Year_of_Release | Genre | Publisher | Developer 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
 count | 6826 | 6826 | 6826 | 6826 | 6826 | 6826
-unique |
-top |
-freq |
-mean |
-std |
-min |
-25% |
-50% |
-75% |
-max |
+
 
 **Goals**
 
