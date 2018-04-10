@@ -135,7 +135,7 @@ Genre
 
 Developer
 
-![alt text](developer.jpg)
+![alt text](developer1.jpg)
 ![alt text](developer_40.jpg)
 
 Publisher 
