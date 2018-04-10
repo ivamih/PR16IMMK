@@ -105,6 +105,49 @@ Other Sales
 
 ![alt text](Other_Sales.jpg)
 
+Games Evaluation 
+
+Critic Score
+
+![alt text](critic_score.jpg)
+
+Critic Count
+
+![alt text](critic_count.jpg)
+
+User Score 
+
+![alt text](user_score.jpg)
+
+User Count
+
+![alt text](user_count.jpg)
+
+Categorical Variables
+
+Platform
+
+![alt text](platform.jpg)
+
+Genre
+
+![alt text](genre.jpg)
+
+Developer
+
+![alt text](developer.jpg)
+![alt text](developer_40.jpg)
+
+Publisher 
+
+![alt text](publisher.jpg)
+![alt text](publisher_40.jpg)
+
+Rating
+
+![alt text](rating.jpg)
+![alt text](rating_rescale.jpg)
+
 
 <sup>1</sup>Metacritic is a web site that collects reviews about a variety of music albums, video games, movies, series, etc. Finally, for each product, two average scores are calculated, one of the analysts in Metacritic, another from the subcribers on the site.
 
