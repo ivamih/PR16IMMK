@@ -73,7 +73,7 @@ max | 98 | 113 | / | 10665 | /
 
 Pre-processing the Data
 
-Before we make a pre-processing, the set has 16719 samples. Once the samples are removed that have no values for some attributes (most often because Metacritic does not cover all platforms), there are approximately 6900 items. From these, we are discarding games for which we do not have a year of release, and finally, 6825 instances remain with all the attributes. We think that these are enough instances to work with. However, this causes us to lose a large part of the games before 1999 (before Metacritic is formed) because a small part of these games have all the attributes. Additionally, as seen in the graph for the year of production there are several years after the formation of Metacritic for which we do not have data at all. For these reasons, we kept the original set in case we need the data in the future work.
+Before we make a pre-processing, the set has 16719 samples. Once the samples are removed that have no values for some attributes (most often because Metacritic does not cover all platforms), there are approximately 6900 items. From these, we are discarding games for which we do not have a year of release, and finally, 6825 instances remain with all the attributes. We think that these are enough instances to work with. However, because of this we lose a large part of the games before 1999 (before Metacritic is formed), a small part of these games have all the attributes. Additionally, as seen in the graph for the year of production there are several years after the formation of Metacritic for which we do not have data at all. For these reasons, we kept the original set in case we need the data in the future work.
 
 Year of Release
 
@@ -81,7 +81,7 @@ Year of Release
 
 The holes in the histogram for the Year_of_Release indicates that for specific years we have no data due to the pre-processing process. An interesting trend is the increase in the number of produced games per year until 2009, after which this number begins to decrease. An interesting hypothesis that could be the subject of further research is that this trend is due to the economic crisis in 2009. The histogram shows that the data is negatively skewed. Additionally, we have a small number of outliers and a small number of games before 1999 because Metacritic was formed in 1999.
 
-Sales
+**Sales**
 
 The following five graphs refer to the attributes for total sales and sales in different regions of the world. Each of these graphs consists of three parts: histogram, box plot with outliers and box plot without outliers. In histograms and box plots with outliers we have a logarithmic scale in the y-axis, for a better view of the data. Box plot schedules without outliers have a linear scale on the y-axis and we have drawn them for a better overview of central tendency measures because some outliers deviate considerably from central tension measures and make the graph so vast. We can see that all data is positively skewed. This means that a small number of games are sold in huge quantities, while most games have significantly less sales. In general, the number of outliers is high, especially in Japan and countries that fall into Other_Sales. Another thing that can be noticed is that sales are the highest in North America. Next comes the European Union and Japan, and all other countries together have the smallest sales.
 
@@ -105,7 +105,10 @@ Other Sales
 
 ![alt text](Other_Sales.jpg)
 
-Games Evaluation 
+**Games Evaluation**
+
+If we compare Critic_Score and User_Score, we can observe that the User_Score histogram is more negatively skewed than Critic_Score. This would mean that User_Score's mode is better centered than Critic_Score's, because subscribers tend to give higher scores, as expected, given the fact that critics are more objective in the assessment. We can also note that analysts and users, in general, give medium or high marks, which is a positive sign for the video game industry.
+The User_Count histogram is much more positively skewed than the one for Critic_Count. 
 
 Critic Score
 
@@ -123,10 +126,10 @@ User Count
 
 ![alt text](user_count.jpg)
 
-Categorical Variables
+**Categorical Variables**
 
 Platform
-As we see from the video game gaming bar plot, the most popular platforms are PS2, X360, PS3 and PC. This means that consoles are producing more games around the computer, probably because there are many games that are exclusive to a particular console.
+As we see from the video game Plarform bar plot, the most popular platforms are PS2, X360, PS3 and PC. This means that more games are produced for consoles, than for computers, probably because there are many games that are exclusive to a particular console.
 
 ![alt text](platform.jpg)
 
@@ -143,13 +146,26 @@ The first graph shows all game producers. Although we can not see the individual
 
 Publisher 
 
-Again, the first chart shows all the publishers of games to see the global trend. We see that a small number of publishers are releasing a large number of games, while many of the publishing companies have less than 15 games released. This is caused by the same reasons as the trend in the producers of games. The second chart shows the 50 companies with the most issued games. It can be noted that most games have been released by Electronic Arts, which is expected given the fact that we saw on the manufacturers' charts that 4 of their studies are in the first 15 by number of produced games. The second company by the number of games released Ubisoft also has 2 studios in the first 15 by number of manufactured games. Additionally, other companies such as Nintendo, Capcom, etc. are among the top positions and on both charts.
+Again, the first chart shows all the publishers of games to see the global trend. We see that a small number of publishers are releasing a large number of games, while many of the publishing companies have less than 15 games released. This is caused by the same reasons as the trend in the producers of games. The second chart shows the 40 companies with the most issued games. It can be noted that most games have been released by Electronic Arts, which is expected given the fact that we saw on the manufacturers' charts that 4 of their studios are in the first 15 by number of produced games. The second company by the number of games released Ubisoft also has 2 studios in the first 15 by number of manufactured games. Additionally, other companies such as Nintendo, Capcom, etc. are among the top positions on both charts.
 
 
 ![alt text](publisher.jpg)
 ![alt text](publisher_40.jpg)
 
 Rating
+
+Overview of ESRB categories:
+* EC (Early Childhood) rating is for content intended for the youngest children.
+* E (Everyone) ratings are assigned to games that are generally appropriate for each age. It is possible to have a minimal display of violence or rare use of a dishonest vocabulary, but mainly based on fantasy.
+* E10 + (Everyone 10+) ratings are for games intended for people over 10 years old. It is possible to have a minimal display of violence, the use of an objectionable dictionary and suggestive scenes, but mainly based on fantasy.
+* T (Teen) ratings receive video games that are appropriate for people over 13 years old, can contain violence, blood, vulgar humor, and a brazen dictionary. Also, simulated gambling is common.
+* M (Mature) rating is awarded to video games recommended for people over 17 years old. Games of this type contain intense violence, blood and sexual scenes and the strong use of vulgar vocabulary.
+* AO (Adults Only) rating is for games suitable for people over 18 years old. They can contain longer scenes of intense violence and sexual content, and include gambling with real money.
+* RP (Rating Pending) rating is a temporary rating received by new games that have not yet been evaluated by the ESRB. Once the game is evaluated by critics, this rating is replaced by the actual one.
+
+Note: on the graphs we see another category: Kids to Adults. K-A ratings existed until January 1, 1998 and then renamed to Everyone. The category still exists because probably some older games that got their rating before 1998 have not changed.
+
+From the chart of ESRB ratings we see that most of the games are in the categories T, E and M. It is noticeable that all games available on the market, more or less, are intended for any age, with certain restrictions on children and teenagers. These ratings are important because, according to recent research, 84% of parents are familiar with this rating system, and 69% regularly check the ESRB ratings before buying their child's game. Therefore, publishers wishing to expand in the children's and teenage world should be aware of certain conditions set by the ESRB. On the other hand, rating M is quite popular because there are a large number of adult people playing games. We see that the adult market is quite popular and in any case publishers are trying to keep the high percentage they have in this area.
 
 ![alt text](rating.jpg)
 ![alt text](rating_rescale.jpg)
