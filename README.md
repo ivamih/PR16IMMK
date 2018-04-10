@@ -79,6 +79,32 @@ Year of Release
 
 ![alt text](Year_of_Release.jpg)
 
+The holes in the histogram for the Year_of_Release indicates that for specific years we have no data due to the pre-processing process. An interesting trend is the increase in the number of produced games per year until 2009, after which this number begins to decrease. An interesting hypothesis that could be the subject of further research is that this trend is due to the economic crisis in 2009. The histogram shows that the data is negatively skewed. Additionally, we have a small number of outliers and a small number of games before 1999 because Metacritic was formed in 1999.
+
+Sales
+
+The following five graphs refer to the attributes for total sales and sales in different regions of the world. Each of these graphs consists of three parts: histogram, box plot with outliers and box plot without outliers. In histograms and box plots with outliers we have a logarithmic scale in the y-axis, for a better view of the data. Box plot schedules without outliers have a linear scale on the y-axis and we have drawn them for a better overview of central tendency measures because some outliers deviate considerably from central tension measures and make the graph so vast. We can see that all data is positively skewed. This means that a small number of games are sold in huge quantities, while most games have significantly less sales. In general, the number of outliers is high, especially in Japan and countries that fall into Other_Sales. Another thing that can be noticed is that sales are the highest in North America. Next comes the European Union and Japan, and all other countries together have the smallest sales.
+
+Global Sales
+
+![alt text](Global_Sales.jpg)
+
+North America
+
+![alt text](NA_Sales.jpg)
+
+European Union
+
+![alt text](EU_Sales.jpg)
+
+Japan
+
+![alt text](JP_Sales.jpg)
+
+Other Sales
+
+![alt text](Other_Sales.jpg)
+
 
 <sup>1</sup>Metacritic is a web site that collects reviews about a variety of music albums, video games, movies, series, etc. Finally, for each product, two average scores are calculated, one of the analysts in Metacritic, another from the subcribers on the site.
 
