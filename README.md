@@ -73,7 +73,7 @@ max | 98 | 113 | / | 10665 | /
 
 Pre-processing the Data
 
-Before we make a pre-processing, the set has 16719 samples. Once the samples are removed that have no values for some attributes (most often because Metacritic does not cover all platforms, so we have no grades for everyone), there are approximately 6900 items. From these, we are discarding games for which we do not have a year of release, and finally, 6825 instances remain with all the attributes. We think that these are enough instances to work with the set. However, this causes us to lose a large part of the games before 1999 (before Metacritic is formed) because a small part of these games have all the attributes. Additionally, as seen in the graph for the year of production there are several years after the formation of Metacritic for which we do not have data at all. For these reasons, we kept the original set in case we need the data in the future work.
+Before we make a pre-processing, the set has 16719 samples. Once the samples are removed that have no values for some attributes (most often because Metacritic does not cover all platforms), there are approximately 6900 items. From these, we are discarding games for which we do not have a year of release, and finally, 6825 instances remain with all the attributes. We think that these are enough instances to work with. However, this causes us to lose a large part of the games before 1999 (before Metacritic is formed) because a small part of these games have all the attributes. Additionally, as seen in the graph for the year of production there are several years after the formation of Metacritic for which we do not have data at all. For these reasons, we kept the original set in case we need the data in the future work.
 
 Year of Release
 
@@ -126,19 +126,25 @@ User Count
 Categorical Variables
 
 Platform
+As we see from the video game gaming bar plot, the most popular platforms are PS2, X360, PS3 and PC. This means that consoles are producing more games around the computer, probably because there are many games that are exclusive to a particular console.
 
 ![alt text](platform.jpg)
 
 Genre
+This bar plot is about the type of video games. It can be noticed that the most produced types are action games. With almost double production, sports and shooter games are followed.
 
 ![alt text](genre.jpg)
 
 Developer
+The first graph shows all game producers. Although we can not see the individual producers, we have drawn it to see the global trend that most of the games are made by small number of manufacturers, while a big number of manufacturers have made less than 10 games. This is consistent with the fact that there are several companies that produce a few games a year. On the other hand, there are a number of small independent companies that will produce several games before they are bought from a larger company or stop working. The second chart shows the 40 most-released manufacturers. It's interesting to note that even four studios of Electronic Arts (EA) and 2 Ubisoft studios are in the top 15 manufacturers.
 
 ![alt text](developer1.jpg)
 ![alt text](developer_40.jpg)
 
 Publisher 
+
+Again, the first chart shows all the publishers of games to see the global trend. We see that a small number of publishers are releasing a large number of games, while many of the publishing companies have less than 15 games released. This is caused by the same reasons as the trend in the producers of games. The second chart shows the 50 companies with the most issued games. It can be noted that most games have been released by Electronic Arts, which is expected given the fact that we saw on the manufacturers' charts that 4 of their studies are in the first 15 by number of produced games. The second company by the number of games released Ubisoft also has 2 studios in the first 15 by number of manufactured games. Additionally, other companies such as Nintendo, Capcom, etc. are among the top positions and on both charts.
+
 
 ![alt text](publisher.jpg)
 ![alt text](publisher_40.jpg)
