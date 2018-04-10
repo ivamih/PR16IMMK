@@ -2,8 +2,12 @@
 
 ## Video game sales with ratings
 
-We have chosen a dataset from Kaggle, https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings
+We have chosen a data set from Kaggle, https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings
+The data set that we will be using is in one file, Video_Games_Sales_as_at_22_Dec_2016.csv.
+
 **Goals**
+
+In 20 years, the gaming industry has grown and sophisticated. By exploring this data set, we will be able to find trends about the industry, compare consoles against eachother, search through the most popular genres, predict which genres will be popular in the future, etc.
 
 **Data** 
 
