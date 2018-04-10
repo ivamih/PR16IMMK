@@ -76,6 +76,7 @@ Pre-processing the Data
 Before we make a pre-processing, the set has 16719 samples. Once the samples are removed that have no values for some attributes (most often because Metacritic does not cover all platforms, so we have no grades for everyone), there are approximately 6900 items. From these, we are discarding games for which we do not have a year of release, and finally, 6825 instances remain with all the attributes. We think that these are enough instances to work with the set. However, this causes us to lose a large part of the games before 1999 (before Metacritic is formed) because a small part of these games have all the attributes. Additionally, as seen in the graph for the year of production there are several years after the formation of Metacritic for which we do not have data at all. For these reasons, we kept the original set in case we need the data in the future work.
 
 Year of Release
+
 ![alt text](Year_of_Release.jpg)
 
 
