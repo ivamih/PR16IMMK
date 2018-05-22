@@ -1,15 +1,15 @@
 # PR16IMMK
 
-## Video game sales with ratings
+# Video game sales with ratings
 
 We have chosen a data set from Kaggle, https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings
 The data set that we will be using is in one file, Video_Games_Sales_as_at_22_Dec_2016.csv.
 
-**Goals**
+## Goals
 
 In 20 years, the gaming industry has grown and sophisticated. By exploring this data set, we will be able to find trends about the industry, compare consoles against eachother, search through the most popular genres, predict which genres will be popular in the future, etc.
 
-**Data** 
+## Data 
 
 The data set consists of video games, information on their sales and ratings received by Metacritic<sup>1</sup> and ESRB<sup>2</sup>. The basic data and sales data are taken over by VG Chartz<sup>3</sup> and are then complemented by ratings from Metacritic and ESRB. Only games that are sold in more than 100000 copies are included.
 
@@ -33,7 +33,7 @@ Developer | Party responsible for creating the game | String | Discrete
 Rating | The ESRB ratings (e.g.Everyone, Teen, Adults Only..etc.) | String | Discrete
 
 
-**Descriptive Sctatistics**
+## Descriptive Sctatistics
 
  X | Name | Platform | Year_of_Release | Genre | Publisher | Developer 
 ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
@@ -73,13 +73,13 @@ min | 13 | 3 | / | 4 | /
 75% | 80 | 39 | / | 89 | / 
 max | 98 | 113 | / | 10665 | / 
 
-**Analysis**
+## Analysis
 
-Pre-processing the Data
+**Pre-processing the Data**
 
 Before we make a pre-processing, the set has 16719 samples. Once the samples are removed that have no values for some attributes (most often because Metacritic does not cover all platforms), there are approximately 6900 items. From these, we are discarding games for which we do not have a year of release, and finally, 6825 instances remain with all the attributes. We think that these are enough instances to work with. However, because of this we lose a large part of the games before 1999 (before Metacritic is formed), a small part of these games have all the attributes. Additionally, as seen in the graph for the year of production there are several years after the formation of Metacritic for which we do not have data at all. For these reasons, we kept the original set in case we need the data in the future work.
 
-Year of Release
+**Year of Release**
 
 ![alt text](Year_of_Release.jpg)
 
