@@ -133,16 +133,19 @@ User Count
 **Categorical Variables**
 
 Platform
+
 As we see from the video game Plarform bar plot, the most popular platforms are PS2, X360, PS3 and PC. This means that more games are produced for consoles, than for computers, probably because there are many games that are exclusive to a particular console.
 
 ![alt text](platform.jpg)
 
 Genre
+
 This bar plot is about the type of video games. It can be noticed that the most produced types are action games. With almost double production, sports and shooter games are followed.
 
 ![alt text](genre.jpg)
 
 Developer
+
 The first graph shows all game producers. Although we can not see the individual producers, we have drawn it to see the global trend that most of the games are made by small number of manufacturers, while a big number of manufacturers have made less than 10 games. This is consistent with the fact that there are several companies that produce a few games per year. On the other hand, there are a number of small independent companies that will produce several games before they are bought from a larger company or stop working. The second chart shows the 40 most-released manufacturers. It's interesting to note that even four studios of Electronic Arts (EA) and 2 Ubisoft studios are in the top 15 manufacturers.
 
 ![alt text](developer1.jpg)
